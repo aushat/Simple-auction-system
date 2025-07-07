@@ -1,9 +1,19 @@
-# Simple Auction System 🗂️💸
+# Simple Auction System 💸
 
 This is a Python console application that simulates a basic auction system using object-oriented programming principles.  
 I built this project to deepen my understanding of Python, especially how to design and work with multiple interacting classes.
 
 ---
+## About the Files 🗂️
+
+- **`auction.py`**  
+  This file has the main classes that power the auction system — like `Auction`, `Lot`, `Bid`, and `Person`. It’s where the logic lives: how bids work, how lots are tracked, and how people place bids.
+
+- **`auctionsystem.py`**  
+  This is the program you actually run. It uses the classes from `auction.py` to let you interact with the auction through a simple menu. You can add items, bid on them, see the highest bids, and save everything to a file.
+
+Basically, `auction.py` is the engine, and `auctionsystem.py` is the driver that makes it all happen for you in the terminal.
+
 
 ## 📌 What it does
 
